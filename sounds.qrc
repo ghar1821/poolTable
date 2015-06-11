@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sounds/boings.wav</file>
+        <file>sounds/clang.wav</file>
+        <file>sounds/crunch.wav</file>
+        <file>sounds/whip.wav</file>
+        <file>sounds/spring.wav</file>
+    </qresource>
+</RCC>

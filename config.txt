@@ -1,0 +1,41 @@
+#Configuration file storing values of one Table, one Ball and one or more Pockets
+#'#' starting a line represents a comment line which should automatically ignored
+#Correct format of the configuration file is needed
+#Incorrect format of any object would cause the value of this type of object be abandoned
+#And defalut values would be used instead
+#All of the values are in 'double' type
+#Table=width height tableFriction cushionFriction
+
+#The range of tableFriction and cushionFriction should be (0,1)
+Table=1000 1000 0.99 0.99
+
+#Explosion=explosionSpeed
+Explosion=15
+
+#Ball=posX posY radius velocityX velocityY
+Ball=50 20 14 1 2
+Ball=300 50 7 20 20
+Ball=100 100 14 15 15
+Ball=30 250 14 -7 0
+Ball=70 250 10 -5 0
+Ball=300 400 14 0 -20
+Ball=500 400 14 -10 0
+
+#Pocket=posX posY radius
+Pocket=20 20 15
+Pocket=20 980 15
+Pocket=980 20 15
+Pocket=980 980 15
+Pocket=20 480 15
+Pocket=980 480 15
+
+#Block=posX posY width height
+Block=600 600 30 30
+Block=150 150 30 30
+
+#power is suction power, how fast will the ball be sucked in.
+#BlackHole=posX posY power
+BlackHole=250 250 0.1
+BlackHole=400 400 0.3
+
+
